@@ -1,0 +1,36 @@
+node_modules/
+dist/
+tests/out/
+dev/
+
+# Local configuration and credentials
+.env*
+*.local
+.npmrc
+.netrc
+.git-credentials
+.ssh/
+.aws/
+credentials.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+id_rsa
+id_ecdsa
+id_ed25519
+
+# Logs, caches and generated validation output
+*.log
+coverage/
+playwright-report/
+test-results/
+.cache/
+.vite/
+*.tsbuildinfo
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
